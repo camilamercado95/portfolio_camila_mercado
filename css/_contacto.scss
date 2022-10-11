@@ -1,0 +1,119 @@
+.datosDeContacto{
+    display: flex;
+    width: 100%;
+    .datosDeContacto__links{
+        text-align: center;
+        i{
+            margin: 0 .5em;
+            font-size: 1.9em;
+        }
+        a{
+            color: $rosa;
+            text-decoration: none;
+        }
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input, textarea{
+        width: 90%;
+        padding: .5em;
+        margin: .5em 0;
+        border: none;
+        border-radius: 0.3em;
+        background-color: $blanco;
+        &:focus{
+            outline: none;
+            border: 1px solid $rosa;
+        }
+        &::placeholder{
+            color: $colorMarron;
+            opacity: 60%;
+        }
+        &:last-child{
+            background-color: $rosa;
+            border-radius: .5em;
+            border: none;
+        }
+    }
+    textarea{
+        height: 10em;
+        overflow: auto;
+    }
+}
+
+/* ---- MOBILE ---- */
+
+@media screen and (min-width: 320px) {
+    .formulario{
+        .datosDeContacto{
+            flex-direction: column-reverse;
+            .datosDeContacto__links{
+                margin: 3em 0 2em 0;
+            }
+        }
+        form{
+            margin-top: 3em;
+            input, textarea{
+                width: 90%;
+                &:last-child{
+                    width: 40%;
+                }
+            }
+            textarea{
+                height: 10em;
+                overflow: auto;
+            }
+        }
+
+    }
+}
+
+/* ---- TABLET ---- */
+
+@media screen and (min-width: 567px) {
+}
+
+/* ---- DESKTOP ---- */
+
+@media screen and (min-width: 992px) {
+    .formulario{
+        .datosDeContacto{
+            margin: 2em 0;
+            flex-direction: row;
+            justify-content: center;
+            .datosDeContacto__links{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin: 0;
+                margin-bottom: 3.5em;
+                width: 10%;
+                a{
+                    transition: .5s;
+                    &:hover{
+                        color:#ffcbd7;
+                    }
+
+                }
+            }
+        }
+        form{
+            margin: 0;
+            width: 70%;
+            input, textarea{
+                width: 80%;
+            }
+            input:last-child{
+                transition: .5s;
+                &:hover{
+                    background-color:#ffcbd7;
+                }
+
+            }
+        }
+    }
+}

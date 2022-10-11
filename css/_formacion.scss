@@ -1,0 +1,90 @@
+.formacion__div{
+    display: flex;
+    justify-content: center;
+    .formacion__div-article{
+        background-color: $rosaClaro;
+        border-radius: .3em;
+        margin: 2em 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            margin: 1em .5em;
+        }
+        .formacion__certificados{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+                a{
+                    margin: .5em;
+                    padding: 1em;
+                    width: 6em;
+                    height: 6em;
+                    border-radius: 1em;
+                    background-color: $rosa;
+                    color:$colorMarron;
+                    text-decoration: none;
+                    text-align: center;
+                    transition: .5s;
+                    &:hover{
+                        background-color: #ffcbd7;
+                    }
+                    i{
+                        display: inline-block;
+                        color: $rosaClaro;
+                        font-size: 3em;
+                    }
+                    p{
+                        padding:0;
+                        margin: .5em 0;
+                        font-size: .8em;
+                    }
+                }
+        }
+        .react{
+            a{
+                background-color: silver;
+                &:hover{
+                    background-color: silver;
+                }
+            }
+        }
+    }
+}
+/* ---- MOBILE ---- */
+
+@media screen and (min-width: 320px) {
+    .formacion__div{
+        flex-direction: column;
+        width: 100%;
+        .formacion__div-article{
+            width: 90%;
+            padding: 2em;
+            h6{
+                text-align: center;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+}
+
+/* ---- TABLET ---- */
+
+@media screen and (min-width: 567px) {
+
+}
+
+/* ---- DESKTOP ---- */
+
+@media screen and (min-width: 992px) {
+    .formacion__div{ 
+        flex-direction: row;
+        flex-wrap: wrap;
+        .formacion__div-article{
+            width: 35%;
+            padding: 2em;
+        }
+    }
+}

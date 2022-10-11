@@ -1,0 +1,50 @@
+.sobreMi_div{
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+    .sobreMi_div_img{
+        border-radius: 50%;
+    }
+}
+
+/* ---- MOBILE ---- */
+
+@media screen and (min-width: 320px) {
+    .sobreMi_div{
+        flex-direction: column;
+        .sobreMi_div_img{
+            width: 80%;
+        }
+        .sobreMi_div_texto{
+            margin-top: 2em;
+            width: 90%;
+        }
+    }
+}
+  
+  /* ---- TABLET ---- */
+  
+@media screen and (min-width: 567px) {
+}
+
+/* ---- DESKTOP ---- */
+
+@media screen and (min-width: 992px) {
+    .sobreMi_div{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        .sobreMi_div_img{
+            width: 20%;
+            transition: .5s;
+            &:hover{
+              transform: scale(1.1);
+            }
+        }
+        .sobreMi_div_texto{
+            width: 40%;
+            margin-left: 7em;
+        }
+    }
+}
+  

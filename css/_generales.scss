@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Brittany Signature";
+  src: url("../assets/fonts/BrittanySignature.ttf");
+}
+@font-face {
+  font-family: "Consolas";
+  src: url("../assets/fonts/consola.ttf");
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("../assets/fonts/LEMONMILK-Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: $blanco;
+  color: $colorMarron;
+
+  :not(h1,h2){
+    font-family: $fuenteCuerpoTexto;
+  }
+
+  h3{
+    font-family: $fuenteCM;
+    align-self: center;
+    text-align: center;
+    border-bottom: solid 5px $colorMarron;
+    margin: 1em 0 .5em 0;
+    padding: .2em 0;
+  }
+
+  #sobreMi, #portfolio, #habilidades, #formacion, .formulario{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sobreMi,#habilidades,.formulario{
+    margin: 2em 0 .5em 0;
+    padding: 0 1em 2em 1em;
+    background-color: $rosaClaro;
+  }
+  
+  .flechaSubir{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    i{
+      margin: 1em;
+      font-size: 1.7em;
+      color: $colorMarron;
+
+    }
+  }
+
+  .negrita{
+    font-weight: bold;
+  }
+
+  footer{
+    text-align: center;
+  }
+}
+
+/* ---- MOBILE ---- */
+
+@media screen and (min-width: 320px) {
+  body{
+    h3 {
+      font-size: 1.6em;
+      width: 70%;
+    }
+    
+  }
+}
+
+/* ---- TABLET ---- */
+
+@media screen and (min-width: 567px) {
+}
+
+/* ---- DESKTOP ---- */
+
+@media screen and (min-width: 992px) {
+  body{
+    h3 {
+      width: 30%;
+    }
+    
+  }
+}

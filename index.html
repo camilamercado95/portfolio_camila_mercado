@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Palabras clave -->
+    <meta name="keywords" content="Portfolio, Desarrollo web, desarrolladora web, maquetador web, html, css">
+    <!-- Descripcion -->
+    <meta name="description"
+        content="Mi nombre es Camila Mercado y soy Desarrolladora web. Me especializo en diseñar, maquetar y desarrollar sitios web responsive.">
+    <!-- Titulo del sitio -->
+    <title>Camila Mercado - Portfolio</title>
+    <!-- Logo en la pestaña -->
+    <link rel="icon" href="assets/img/header/logo_icono_camila_mercado.ico">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Mi css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/2749304c47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Round">
+
+    <script src="animate-wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</head>
+
+
+<body>
+
+    <header id="header">
+
+        <nav class="header__nav-desktop">
+            <div class="header__nav-desktop-logo">
+                <a class="header__nav-iniciales" href="index.html">CM</a>
+            </div>
+            <ul class="header__nav-desktop-ul">
+                <li class="header__nav-desktop-ul-li"><a class="header__nav-desktop-ul-li-a" href="#sobreMi">Sobre
+                        Mi</a></li>
+                <li class="header__nav-desktop-ul-li"><a class="header__nav-desktop-ul-li-a"
+                        href="#portfolio">Portfolio</a></li>
+                <li class="header__nav-desktop-ul-li"><a class="header__nav-desktop-ul-li-a"
+                        href="#habilidades">Habilidades</a></li>
+                <li class="header__nav-desktop-ul-li"><a class="header__nav-desktop-ul-li-a"
+                        href="#formacion">Formación</a></li>
+                <li class="header__nav-desktop-ul-li"><a class="header__nav-desktop-ul-li-a"
+                        href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__nav-mobile">
+            <nav class="navbar bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand header__nav-iniciales" href="index.html">CM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <!-- <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> -->
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre Mi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#formacion">Formación</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#contacto">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="titulos">
+            <h1 class="animate__animated animate__fadeInLeft"> Camila Mercado </h1>
+            <h2 class="animate__animated animate__fadeInRight"> &ltdesarrolladora web&gt</h2>
+        </div>
+    </main>
+
+    <section id="sobreMi">
+        <h3 class="">Sobre Mi</h3>
+        <div class="sobreMi_div wow animate__animated animate__fadeInDown">
+            <img class="sobreMi_div_img " src="assets/img/sobre_mi/camila_mercado.jpg" alt="Camila Mercado">
+            <div class="sobreMi_div_texto ">
+                <p>Soy Camila Mercado, diseñadora de imagen y sonido y desarrolladora web. Me apasiona el <span
+                        class="negrita">diseño</span> y la <span class="negrita">realización de proyectos</span>
+                    visuales. Soy una persona muy organizada y en constante aprendizaje.</p>
+                <p>En búsqueda de nuevos proyectos para seguir aprendiendo y formándome en el mundo de la programación.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <a href="#header" class="flechaSubir"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <section id="portfolio">
+
+        <h3>Portfolio</h3>
+
+        <div class="container-porfolio">
+
+            <article class="portfolio__article wow animate__animated animate__fadeInLeft">
+
+                <a href="http://www.diazcortez.com.ar/acumar/merlorecicla/vm03/webapp/" class="portfolio__article__a"
+                    target="_blank">
+                    <img src="assets/img/porfolio/poster_merlo.jpg" alt="Poster de Merlo recicla"
+                        class="portfolio__article__a__img">
+                </a>
+                <div class="portfolio__article__div">
+                    <h4 class="portfolio__article__div__h4"> Merlo Recicla </h4>
+                    <h5 class="portfolio__article__div__h5">Junio de 2021</h5>
+                    <p class="portfolio__article__div__p">Primer trabajo (académico y grupal) de maquetación web donde
+                        aprendí <span class="negrita">HTML y CSS</span>. Realizamos un sitio web sobre la cooperativa de
+                        trabajo "Merlo Recicla" que
+                        se dedica a concientizar y ayudar al planeta recolectando reciclables y realizando barridos
+                        territoriales.</p>
+                    <div class="portfolio__article__icons">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio__article wow animate__animated animate__fadeInRight">
+
+                <a href="http://www.diazcortez.com.ar/acumar/merlorecicla/vm03/1/index.html"
+                    class="portfolio__article__a" target="_blank">
+                    <img src="assets/img/porfolio/rotulo.jpg" alt="Poster del Rotulo"
+                        class="portfolio__article__a__img">
+                </a>
+                <div class="portfolio__article__div">
+                    <h4 class="portfolio__article__div__h4">Rótulo personal</h4>
+                    <h5 class="portfolio__article__div__h5">Junio de 2021</h5>
+                    <p class="portfolio__article__div__p">Paralelamente a Merlo Recicla, maquete un rótulo personal,
+                        aplicando <span class="negrita">HTML y CSS</span>, con información personal académica y
+                        ejercicios de la cursada (los
+                        prototipos del sitio web de Merlo Recicla, por ejemplo).</p>
+                    <div class="portfolio__article__icons">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="portfolio__article wow animate__animated animate__fadeInLeft">
+                <a href="https://camilamercado95.github.io/circe_accesorios/" class="portfolio__article__a"
+                    target="_blank">
+                    <img src="assets/img/porfolio/circe.jpg" alt="Poster de Circe accesorios"
+                        class="portfolio__article__a__img">
+                </a>
+                <div class="portfolio__article__div">
+                    <h4 class="portfolio__article__div__h4">Circe accesorios</h4>
+                    <h5 class="portfolio__article__div__h5">Octubre de 2022</h5>
+                    <p class="portfolio__article__div__p">
+                        Para el curso de Desarrollo web y JavaScript rediseñe mi e-commerce de venta de accesorios,
+                        aplicando <span class="negrita">HTML, CSS, JavaScript, frameworks</span> como Bootstrap, <span
+                            class="negrita">librerías</span> como SweetAlert y <span class="negrita">APIs</span>. En
+                        ambos cursos ingrese en el TOP10.</p>
+                    <div class="portfolio__article__icons">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-js-square"></i>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+
+
+    </section>
+
+    <a href="#header" class="flechaSubir"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <section id="habilidades">
+        <h3>Habilidades</h3>
+
+        <div class="habilidades__div">
+            <div class="habilidades__icons">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-js-square"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <span class="material-icons-round"> devices </span>
+                <i class="fa-solid fa-wrench"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-server"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-comments"></i>
+                <i class="fa-brands fa-trello"></i>
+            </div>
+            <div class="habilidades__lista">
+                <p class="habilidades__lista_p"><span class="negrita">HTML5</span>.</p>
+                <p class="habilidades__lista_p"><span class="negrita">CSS3 y SASS</span>.</p>
+                <p class="habilidades__lista_p"><span class="negrita">JavaScript</span>.</p>
+                <p class="habilidades__lista_p">Frameworks: <span class="negrita">Bootstrap</span>.</p>
+                <p class="habilidades__lista_p">Creación de <span class="negrita">sitios web responsive</span> adapables
+                    a diferentes pantallas.</p>
+                <p class="habilidades__lista_p"><span class="negrita">Mantenimiento</span> de sitios web.</p>
+                <p class="habilidades__lista_p">Realización de <span class="negrita">prototipos</span>, con
+                    conocimientos básicos de <span class="negrita">UX </span>para una web.
+                </p>
+                <p class="habilidades__lista_p">Capaz de trabajar en equipo, usando un controlador
+                    de versiones (<span class="negrita">Git</span>) y manejo de repositorio (<span
+                        class="negrita">GitHub</span>).</p>
+                <p class="habilidades__lista_p">Subida del sitio a un<span class="negrita"> servidor </span>y
+                    configurarlos con
+                    el <span class="negrita">dominio</span> al que debe apuntar.</p>
+                <p class="habilidades__lista_p">Conocimientos básicos de <span class="negrita">SEO </span>y <span
+                        class="negrita">Seguridad Web</span>.</p>
+                <p class="habilidades__lista_p"><span class="negrita">Asesoramiento</span> al cliente en lo que
+                    necesita.</p>
+                <p class="habilidades__lista_p">Conocimientos en metodología ágil <span class="negrita">Trello</span>,
+                    para
+                    mayor organización de tareas y proyectos.</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="#header" class="flechaSubir"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <section id="formacion">
+
+        <h3>Formación</h3>
+
+        <div class="formacion__div">
+
+            <article class="formacion__div-article wow animate__animated animate__pulse">
+                <h6> React Js </h6>
+                <p> Actualmente estoy estudiando React Js en Coder House. </p>
+                <div class="formacion__certificados react">
+                    <a >
+                        <i class="fa-solid fa-certificate"></i>
+                        <p>React Js</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="formacion__div-article wow animate__animated animate__pulse">
+                <h6>JavaScript</h6>
+                <p>Egresada del curso de JavaScript en Coder House, en octubre del 2022, siendo parte del <span
+                    class="negrita"> top 10 </span>.</p>
+                <div class="formacion__certificados">
+                    <a href="https://www.coderhouse.com/certificados/633b50cddf82b8000e0902a0" target="_blank">
+                        <i class="fa-solid fa-certificate"></i>
+                        <p>Js</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="formacion__div-article wow animate__animated animate__pulse">
+                <h6>Desarrollo web</h6>
+                <p>Soy desarrolladora web. Conocí este mundo, primero, en la carrera de Diseño de Imagen y Sonido, en la
+                    UBA. Luego realicé los cursos de Google Actívate "Introducción al Desarrollo Web: HTML y CSS". Y por
+                    último, me egrese en la institución Coder House en julio del 2022 siendo parte del <span
+                        class="negrita"> top 10</span>.</p>
+                <div class="formacion__certificados">
+                    <a href="https://www.coderhouse.com/certificados/62d95d1bdfc4bc001acface9" target="_blank">
+                        <i class="fa-solid fa-certificate"></i>
+                        <p>DW</p>
+                    </a>
+
+                    <a href="assets/docs/certificado_desarrolloweb_mercado_camila.pdf" target="_blank">
+                        <i class="fa-solid fa-certificate"></i>
+                        <p> IDW (1/2)</p>
+                    </a>
+
+                    <a href="assets/docs/certificado_desarrolloweb_2_camila_mercado.pdf" target="_blank">
+                        <i class="fa-solid fa-certificate"></i>
+                        <p> IDW (2/2)</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="formacion__div-article wow animate__animated animate__pulse">
+                <h6>Diseño de Imagen y Sonido</h6>
+                <p>En febrero del 2022 me recibí de Diseñadora de Imagen y Sonido, en la UBA, donde descubrí la pasión
+                    por el desarrollo web y la edición audiovisual.</p>
+                <div class="formacion__certificados">
+                    <a >
+                        <i class="fa-solid fa-certificate"></i>
+                        <p>DIS</p>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <a href="#header" class="flechaSubir"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <section id="contacto">
+
+        <div class="formulario">
+
+            <h3>Contacto</h3>
+
+            <div class="datosDeContacto">
+                <div class="datosDeContacto__links">
+                    <a href="https://www.linkedin.com/in/mercado-camila" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://github.com/camilamercado95" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="mailto:camila.mercado95@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+
+                    <a href="https://goo.gl/maps/Nr7mDvDKLTHnDJjt9" target="_blank"><i
+                            class="fa-solid fa-location-dot"></i></a>
+                </div>
+
+                <form id="form" class="datosDeContacto__form">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
+
+                    <input type="email" name="mail" id="mail" placeholder="E-mail" required>
+
+                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" required>
+
+                    <textarea name="mensaje" id="mensaje" placeholder="Tu mensaje" required></textarea>
+
+                    <input type="submit" id="button" value="Enviar">
+
+                </form>
+
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                </script>
+
+                <script type="text/javascript">
+                    emailjs.init('RjjBN24tc_jDKX04b')
+                </script>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <a href="#header" class="flechaSubir"><i class="fa-solid fa-circle-arrow-up"></i></a>
+
+    <footer>
+        <div id="derechos">
+            <p>Camila Mercado - 2022</p>
+            <i class="fa-solid fa-cat-space"></i>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+            .addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                btn.value = 'Enviando...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_mjvp8fs';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        btn.value = 'Enviar';
+                        // Swal.fire(
+                        //     'Enviado!',
+                        //     'Gracias por tu mensaje. En breve te responderé',
+                        //     'success'
+                        // )
+                    }, (err) => {
+                        btn.value = 'No se pudo enviar';
+                        alert(JSON.stringify(err));
+                    });
+            });
+    </script>
+
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
