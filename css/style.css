@@ -419,15 +419,15 @@ body footer {
   }
   .container-porfolio .portfolio__article {
     padding: 2em;
-    width: 70%;
+    width: 80%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
   .container-porfolio .portfolio__article .portfolio__article__a {
-    width: 50%;
-    height: 20em;
+    width: 35em;
+    height: 17em;
   }
   .container-porfolio .portfolio__article .portfolio__article__a .portfolio__article__a__img {
     width: 100%;

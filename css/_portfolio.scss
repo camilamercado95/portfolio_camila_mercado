@@ -56,14 +56,14 @@
     align-items: center;
     .portfolio__article {
       padding: 2em;
-      width: 70%;
+      width: 80%;
       flex-direction: row;
       .portfolio__article__a{
-        width: 50%;
-        height: 20em;
+        width: 35em;
+        height: 17em;
         .portfolio__article__a__img{
           width: 100%;
-          height: 100%;
+          height:100%;
           object-fit: cover;
           transition: .5s;
           &:hover{
