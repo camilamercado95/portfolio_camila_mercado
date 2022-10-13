@@ -96,6 +96,8 @@ body footer {
   text-decoration: none;
   -webkit-transition: .3s;
   transition: .3s;
+  font-family: "Lemon Milk";
+  font-size: 1.1em;
 }
 
 .header__nav-iniciales:hover {
@@ -117,6 +119,7 @@ body footer {
   }
   .header__nav-mobile a {
     color: #332117;
+    padding-left: 1.3em;
   }
   .header__nav-mobile .navbar-toggler {
     border: none;

@@ -2,6 +2,8 @@
   color: $colorMarron;
   text-decoration: none;
   transition: .3s;
+  font-family: "Lemon Milk";
+  font-size: 1.1em;
   &:hover{
     color:$rosa;
   }
@@ -28,6 +30,7 @@
 
     a{
       color: $colorMarron;
+      padding-left: 1.3em;
     }
 
     .navbar-toggler{
